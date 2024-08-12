@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DA70BD62C6A159500CB2752 /* HeroQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70BD52C6A159500CB2752 /* HeroQuizApp.swift */; };
+		3DA70BD82C6A159500CB2752 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70BD72C6A159500CB2752 /* ContentView.swift */; };
+		3DA70BDA2C6A159500CB2752 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70BD92C6A159500CB2752 /* Item.swift */; };
+		3DA70BDC2C6A159600CB2752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA70BDB2C6A159600CB2752 /* Assets.xcassets */; };
+		3DA70BE02C6A159600CB2752 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA70BDF2C6A159600CB2752 /* Preview Assets.xcassets */; };
+		3DA70BEA2C6A159600CB2752 /* HeroQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70BE92C6A159600CB2752 /* HeroQuizTests.swift */; };
+		3DA70BF42C6A159600CB2752 /* HeroQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70BF32C6A159600CB2752 /* HeroQuizUITests.swift */; };
+		3DA70BF62C6A159600CB2752 /* HeroQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70BF52C6A159600CB2752 /* HeroQuizUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA70BE62C6A159600CB2752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA70BCA2C6A159500CB2752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA70BD12C6A159500CB2752;
+			remoteInfo = HeroQuiz;
+		};
+		3DA70BF02C6A159600CB2752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA70BCA2C6A159500CB2752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA70BD12C6A159500CB2752;
+			remoteInfo = HeroQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DA70BD22C6A159500CB2752 /* HeroQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA70BD52C6A159500CB2752 /* HeroQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroQuizApp.swift; sourceTree = "<group>"; };
+		3DA70BD72C6A159500CB2752 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DA70BD92C6A159500CB2752 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3DA70BDB2C6A159600CB2752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DA70BDD2C6A159600CB2752 /* HeroQuiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeroQuiz.entitlements; sourceTree = "<group>"; };
+		3DA70BDF2C6A159600CB2752 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DA70BE52C6A159600CB2752 /* HeroQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA70BE92C6A159600CB2752 /* HeroQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroQuizTests.swift; sourceTree = "<group>"; };
+		3DA70BEF2C6A159600CB2752 /* HeroQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA70BF32C6A159600CB2752 /* HeroQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroQuizUITests.swift; sourceTree = "<group>"; };
+		3DA70BF52C6A159600CB2752 /* HeroQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA70BCF2C6A159500CB2752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA70BE22C6A159600CB2752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA70BEC2C6A159600CB2752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA70BC92C6A159500CB2752 = {
+			isa = PBXGroup;
+			children = (
+				3DA70BD42C6A159500CB2752 /* HeroQuiz */,
+				3DA70BE82C6A159600CB2752 /* HeroQuizTests */,
+				3DA70BF22C6A159600CB2752 /* HeroQuizUITests */,
+				3DA70BD32C6A159500CB2752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA70BD32C6A159500CB2752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA70BD22C6A159500CB2752 /* HeroQuiz.app */,
+				3DA70BE52C6A159600CB2752 /* HeroQuizTests.xctest */,
+				3DA70BEF2C6A159600CB2752 /* HeroQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA70BD42C6A159500CB2752 /* HeroQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				3DA70BD52C6A159500CB2752 /* HeroQuizApp.swift */,
+				3DA70BD72C6A159500CB2752 /* ContentView.swift */,
+				3DA70BD92C6A159500CB2752 /* Item.swift */,
+				3DA70BDB2C6A159600CB2752 /* Assets.xcassets */,
+				3DA70BDD2C6A159600CB2752 /* HeroQuiz.entitlements */,
+				3DA70BDE2C6A159600CB2752 /* Preview Content */,
+			);
+			path = HeroQuiz;
+			sourceTree = "<group>";
+		};
+		3DA70BDE2C6A159600CB2752 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DA70BDF2C6A159600CB2752 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DA70BE82C6A159600CB2752 /* HeroQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DA70BE92C6A159600CB2752 /* HeroQuizTests.swift */,
+			);
+			path = HeroQuizTests;
+			sourceTree = "<group>";
+		};
+		3DA70BF22C6A159600CB2752 /* HeroQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DA70BF32C6A159600CB2752 /* HeroQuizUITests.swift */,
+				3DA70BF52C6A159600CB2752 /* HeroQuizUITestsLaunchTests.swift */,
+			);
+			path = HeroQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA70BD12C6A159500CB2752 /* HeroQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA70BF92C6A159600CB2752 /* Build configuration list for PBXNativeTarget "HeroQuiz" */;
+			buildPhases = (
+				3DA70BCE2C6A159500CB2752 /* Sources */,
+				3DA70BCF2C6A159500CB2752 /* Frameworks */,
+				3DA70BD02C6A159500CB2752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroQuiz;
+			productName = HeroQuiz;
+			productReference = 3DA70BD22C6A159500CB2752 /* HeroQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DA70BE42C6A159600CB2752 /* HeroQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA70BFC2C6A159600CB2752 /* Build configuration list for PBXNativeTarget "HeroQuizTests" */;
+			buildPhases = (
+				3DA70BE12C6A159600CB2752 /* Sources */,
+				3DA70BE22C6A159600CB2752 /* Frameworks */,
+				3DA70BE32C6A159600CB2752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA70BE72C6A159600CB2752 /* PBXTargetDependency */,
+			);
+			name = HeroQuizTests;
+			productName = HeroQuizTests;
+			productReference = 3DA70BE52C6A159600CB2752 /* HeroQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DA70BEE2C6A159600CB2752 /* HeroQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA70BFF2C6A159600CB2752 /* Build configuration list for PBXNativeTarget "HeroQuizUITests" */;
+			buildPhases = (
+				3DA70BEB2C6A159600CB2752 /* Sources */,
+				3DA70BEC2C6A159600CB2752 /* Frameworks */,
+				3DA70BED2C6A159600CB2752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA70BF12C6A159600CB2752 /* PBXTargetDependency */,
+			);
+			name = HeroQuizUITests;
+			productName = HeroQuizUITests;
+			productReference = 3DA70BEF2C6A159600CB2752 /* HeroQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA70BCA2C6A159500CB2752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3DA70BD12C6A159500CB2752 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3DA70BE42C6A159600CB2752 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3DA70BD12C6A159500CB2752;
+					};
+					3DA70BEE2C6A159600CB2752 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3DA70BD12C6A159500CB2752;
+					};
+				};
+			};
+			buildConfigurationList = 3DA70BCD2C6A159500CB2752 /* Build configuration list for PBXProject "HeroQuiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA70BC92C6A159500CB2752;
+			productRefGroup = 3DA70BD32C6A159500CB2752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA70BD12C6A159500CB2752 /* HeroQuiz */,
+				3DA70BE42C6A159600CB2752 /* HeroQuizTests */,
+				3DA70BEE2C6A159600CB2752 /* HeroQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA70BD02C6A159500CB2752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA70BE02C6A159600CB2752 /* Preview Assets.xcassets in Resources */,
+				3DA70BDC2C6A159600CB2752 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA70BE32C6A159600CB2752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA70BED2C6A159600CB2752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA70BCE2C6A159500CB2752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA70BD82C6A159500CB2752 /* ContentView.swift in Sources */,
+				3DA70BDA2C6A159500CB2752 /* Item.swift in Sources */,
+				3DA70BD62C6A159500CB2752 /* HeroQuizApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA70BE12C6A159600CB2752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA70BEA2C6A159600CB2752 /* HeroQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA70BEB2C6A159600CB2752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA70BF62C6A159600CB2752 /* HeroQuizUITestsLaunchTests.swift in Sources */,
+				3DA70BF42C6A159600CB2752 /* HeroQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DA70BE72C6A159600CB2752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA70BD12C6A159500CB2752 /* HeroQuiz */;
+			targetProxy = 3DA70BE62C6A159600CB2752 /* PBXContainerItemProxy */;
+		};
+		3DA70BF12C6A159600CB2752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA70BD12C6A159500CB2752 /* HeroQuiz */;
+			targetProxy = 3DA70BF02C6A159600CB2752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DA70BF72C6A159600CB2752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DA70BF82C6A159600CB2752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3DA70BFA2C6A159600CB2752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeroQuiz/HeroQuiz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeroQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y8QN8BGZ9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgs.HeroQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DA70BFB2C6A159600CB2752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeroQuiz/HeroQuiz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeroQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Y8QN8BGZ9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgs.HeroQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DA70BFD2C6A159600CB2752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y8QN8BGZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgs.HeroQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroQuiz";
+			};
+			name = Debug;
+		};
+		3DA70BFE2C6A159600CB2752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y8QN8BGZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgs.HeroQuizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeroQuiz";
+			};
+			name = Release;
+		};
+		3DA70C002C6A159600CB2752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y8QN8BGZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgs.HeroQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroQuiz;
+			};
+			name = Debug;
+		};
+		3DA70C012C6A159600CB2752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y8QN8BGZ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgs.HeroQuizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA70BCD2C6A159500CB2752 /* Build configuration list for PBXProject "HeroQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA70BF72C6A159600CB2752 /* Debug */,
+				3DA70BF82C6A159600CB2752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA70BF92C6A159600CB2752 /* Build configuration list for PBXNativeTarget "HeroQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA70BFA2C6A159600CB2752 /* Debug */,
+				3DA70BFB2C6A159600CB2752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA70BFC2C6A159600CB2752 /* Build configuration list for PBXNativeTarget "HeroQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA70BFD2C6A159600CB2752 /* Debug */,
+				3DA70BFE2C6A159600CB2752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA70BFF2C6A159600CB2752 /* Build configuration list for PBXNativeTarget "HeroQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA70C002C6A159600CB2752 /* Debug */,
+				3DA70C012C6A159600CB2752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA70BCA2C6A159500CB2752 /* Project object */;
+}
