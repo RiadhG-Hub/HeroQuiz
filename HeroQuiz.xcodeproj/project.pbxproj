@@ -15,6 +15,9 @@
 		3DA70BEA2C6A159600CB2752 /* HeroQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70BE92C6A159600CB2752 /* HeroQuizTests.swift */; };
 		3DA70BF42C6A159600CB2752 /* HeroQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70BF32C6A159600CB2752 /* HeroQuizUITests.swift */; };
 		3DA70BF62C6A159600CB2752 /* HeroQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70BF52C6A159600CB2752 /* HeroQuizUITestsLaunchTests.swift */; };
+		3DA70C0A2C6A1CC800CB2752 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70C092C6A1CC800CB2752 /* ModelTests.swift */; };
+		3DA70C0C2C6A1CD300CB2752 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70C0B2C6A1CD300CB2752 /* ViewModelTests.swift */; };
+		3DA70C0E2C6A1CE000CB2752 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA70C0D2C6A1CE000CB2752 /* RepositoryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 		3DA70BEF2C6A159600CB2752 /* HeroQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA70BF32C6A159600CB2752 /* HeroQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroQuizUITests.swift; sourceTree = "<group>"; };
 		3DA70BF52C6A159600CB2752 /* HeroQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DA70C092C6A1CC800CB2752 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		3DA70C0B2C6A1CD300CB2752 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		3DA70C0D2C6A1CE000CB2752 /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		3DA70C0F2C6A1D4B00CB2752 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,7 @@
 		3DA70BC92C6A159500CB2752 = {
 			isa = PBXGroup;
 			children = (
+				3DA70C0F2C6A1D4B00CB2752 /* README.md */,
 				3DA70BD42C6A159500CB2752 /* HeroQuiz */,
 				3DA70BE82C6A159600CB2752 /* HeroQuizTests */,
 				3DA70BF22C6A159600CB2752 /* HeroQuizUITests */,
@@ -97,6 +105,13 @@
 		3DA70BD42C6A159500CB2752 /* HeroQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				3DA70C082C6A1C5B00CB2752 /* Utilities */,
+				3DA70C072C6A1C4900CB2752 /* Resources */,
+				3DA70C062C6A1C3D00CB2752 /* Services */,
+				3DA70C052C6A1C2900CB2752 /* Repositories */,
+				3DA70C042C6A1C1F00CB2752 /* ViewModels */,
+				3DA70C032C6A1C1500CB2752 /* Views */,
+				3DA70C022C6A1C0A00CB2752 /* Models */,
 				3DA70BD52C6A159500CB2752 /* HeroQuizApp.swift */,
 				3DA70BD72C6A159500CB2752 /* ContentView.swift */,
 				3DA70BD92C6A159500CB2752 /* Item.swift */,
@@ -119,6 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				3DA70BE92C6A159600CB2752 /* HeroQuizTests.swift */,
+				3DA70C092C6A1CC800CB2752 /* ModelTests.swift */,
+				3DA70C0B2C6A1CD300CB2752 /* ViewModelTests.swift */,
+				3DA70C0D2C6A1CE000CB2752 /* RepositoryTests.swift */,
 			);
 			path = HeroQuizTests;
 			sourceTree = "<group>";
@@ -130,6 +148,55 @@
 				3DA70BF52C6A159600CB2752 /* HeroQuizUITestsLaunchTests.swift */,
 			);
 			path = HeroQuizUITests;
+			sourceTree = "<group>";
+		};
+		3DA70C022C6A1C0A00CB2752 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3DA70C032C6A1C1500CB2752 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DA70C042C6A1C1F00CB2752 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3DA70C052C6A1C2900CB2752 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3DA70C062C6A1C3D00CB2752 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3DA70C072C6A1C4900CB2752 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3DA70C082C6A1C5B00CB2752 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +340,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DA70BEA2C6A159600CB2752 /* HeroQuizTests.swift in Sources */,
+				3DA70C0A2C6A1CC800CB2752 /* ModelTests.swift in Sources */,
+				3DA70C0C2C6A1CD300CB2752 /* ViewModelTests.swift in Sources */,
+				3DA70C0E2C6A1CE000CB2752 /* RepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
