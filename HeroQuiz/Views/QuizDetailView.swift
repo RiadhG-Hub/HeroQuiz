@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import Foundation
+import SwiftUI
+
+
+struct QuizDetailView : View {
+    var body: some View {
+        VStack{
+            
+        }
+    }
+    
+    
+}
