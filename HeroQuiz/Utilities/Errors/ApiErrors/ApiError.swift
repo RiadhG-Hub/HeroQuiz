@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+
+struct ApiError : Error {
+    var apiErrorType : ApiErrorType
+    init(apiErrorType: ApiErrorType) {
+        self.apiErrorType = apiErrorType
+    }
+}
+
+
+enum ApiErrorType {
+    case nilResult
+    case unknownError
+}

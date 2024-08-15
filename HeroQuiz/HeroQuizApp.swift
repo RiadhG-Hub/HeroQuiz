@@ -25,7 +25,7 @@ struct HeroQuizApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TestTempPage()
         }
         .modelContainer(sharedModelContainer)
     }
